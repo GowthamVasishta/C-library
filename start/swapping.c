@@ -19,7 +19,7 @@ void main() {
 	
 	temp = a; //at this step, temp = 10 and a = 10 and b = 20
 	a = b;	  //here, temp = 10 and a = 20 and b = 20
-	b = temp; // here, temp 10 and a = 20 and b = 10
+	b = temp; // here, temp =  10 and a = 20 and b = 10
 
 	//the values are swapped between a and b
 	printf("After swapping: \n");

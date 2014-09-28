@@ -25,7 +25,8 @@ void main() {
 		scanf("%d", &x[i]);
 	
 	insertion_sort(x,n);
-
+	
+	printf("The sorted array is: \n");
 	for(i=0;i<n;i++)
 		printf("%d \t", x[i]);
 } //end main
@@ -47,3 +48,14 @@ void insertion_sort(int x[MAX], int n) {
   	}
 	
 }
+/*
+ * OUTPUT
+*********
+ * Input the size of array 
+ * 4
+ * Enter the numbers: 
+ * 9 4 7 1
+ * The sorted array is : 
+ * 1 	4 	7 	9  
+*
+*/

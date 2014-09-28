@@ -1,5 +1,5 @@
 /* 
- * Reading set of integers through array
+ * Reading set of integers and storing them in a array
  */
 
 #include<stdio.h>
